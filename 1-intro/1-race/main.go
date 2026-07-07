@@ -8,6 +8,8 @@ import (
 var data int
 
 func main() {
+	// 	In Go, you can use the go keyword to run a function concurrently.
+	// Doing so creates what’s called a goroutine
 	go func() {
 		data++
 	}()
